@@ -1,0 +1,127 @@
+
+# Environment files
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+.env.*
+!.env.example
+
+# Storage
+/storage/*.key
+/storage/app/*
+!/storage/app/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/app/public/academic-materials/*
+!/storage/app/public/academic-materials/.gitignore
+/storage/app/public/watermarks/*
+!/storage/app/public/watermarks/.gitignore
+/storage/app/public/attachments/*
+!/storage/app/public/attachments/.gitignore
+/storage/app/public/books_images/*
+!/storage/app/public/books_images/.gitignore
+/storage/app/public/exports/*
+!/storage/app/public/exports/.gitignore
+/storage/app/imports/*
+!/storage/app/imports/.gitignore
+/storage/app/backups/*
+!/storage/app/backups/.gitignore
+/storage/app/public/query_response_document/*
+!/storage/app/public/query_response_document/.gitignore
+/storage/app/public/users-avatar/*
+!/storage/app/public/users-avatar/.gitignore
+/storage/app/uploads/*
+!/storage/app/uploads/.gitignore
+
+# Bootstrap cache
+bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# IDE and Editor files
+/.idea
+/.vscode
+/.fleet
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache files
+.php_cs.cache
+.phpunit.cache
+.phpunit.result.cache
+
+# Database dumps and backups
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Archive files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+task*.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Laravel Homestead
+Homestead.json
+Homestead.yaml
+
+# Compiled assets
+/public/css
+/public/js
